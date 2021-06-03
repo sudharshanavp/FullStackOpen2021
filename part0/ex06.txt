@@ -1,0 +1,14 @@
+title Exercise 0.6 Full Stack Open 2021
+
+note over Browser
+New note is pushed to array in memory
+and notes list is updated
+end note
+
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+Server-->Browser: new note
+
+note over Server
+New note is recieved by the server
+and stored in the database of the server
+end note
